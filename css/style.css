@@ -1,0 +1,46 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+#filme {
+  width: 100%;              /* 100% da largura da página */
+  display: flex;            /* Alinhamento das divs */
+  justify-content: center;  /* Centralização das divs child */
+
+  /*Envolve todo o conteúdo no campo de visão do usuário, retirando a barra de rolagem da horizontal, e quebrando o conteúdo*/
+  flex-wrap: wrap;          
+}
+
+#filme div {
+  width: 25%;      
+  margin: 20px;     
+  box-shadow: 0px 1.5px 5px rgba(196, 0, 59, 0.568); 
+  border-bottom-left-radius: 5px;   
+  border-bottom-right-radius: 5px; 
+  padding: 10px;   
+  margin-bottom: 150px;  
+  margin-top: 50px;
+
+}
+
+#filme div img {
+  width: 100%;  
+  border-bottom-left-radius: 5px;     
+  border-bottom-right-radius: 5px;    
+  box-shadow: 0px 2px 0.8x rgba(196, 0, 59, 0.123);    
+  margin-top: -60px; 
+}
+
+#filme div:hover {
+  transition: ease 2s;   
+  transform: scale(1.1);
+  cursor: pointer;      
+  box-shadow: 0px 0px 0px 100vw rgba(196, 0, 59, 0.568);   
+  border-radius: 5px;   
+}
+
+
+
+

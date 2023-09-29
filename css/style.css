@@ -42,5 +42,18 @@
 }
 
 
+.btn {
+  background: pink;
+  width: 200px;
+  height: 100px;
+  margin: 10px;
+  border-radius: 10px;
+  font-size: 15px;
+  cursor: pointer;
+}
 
-
+.btn:hover {
+  background: rgb(215, 120, 215);
+  color: white;
+  border: 2px solid purple;
+}
